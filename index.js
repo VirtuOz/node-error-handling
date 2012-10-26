@@ -13,5 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module.exports.DynamicModuleLoader = require('./lib/dynamic_module_loader');
-module.exports.config = require('./lib/dml_config');
+
+/**
+ * index.js
+ *
+ * @author Kevan Dunsmore
+ * @created 2012/08/28
+ */
+module.exports = require('./lib/error_handling');

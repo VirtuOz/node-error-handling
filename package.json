@@ -1,6 +1,6 @@
 {
     "name":"error-handling",
-    "version":"0.0.1",
+    "version":"1.0.0",
     "scripts":{
         "test":"node_modules/mocha/bin/_mocha test/*_test.js --ignore-leaks -t 20000 --reporter spec",
         "test-jenkins":"node_modules/mocha/bin/_mocha test/*_test.js --ignore-leaks -t 20000 --reporter xunit-file",

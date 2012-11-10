@@ -48,7 +48,7 @@ As you can see, the code to handle errors is boring and repetitive.  Enter this 
 make you happy.  Like this:
 
     var Future = require('futures').future;
-    var eh = require('vnodelib').load('error-handling');
+    var eh = require('error-handling');
     .
     .
     .
@@ -81,7 +81,7 @@ See?  Lots of boilerplate cut out of the picture.
 
 Of course, you needn't just use error-handling with Future.  You can do it like this:
 
-    var eh = require('vnodelib').load('error-handling');
+    var eh = require('error-handling');
     .
     .
     .
